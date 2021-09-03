@@ -23,28 +23,28 @@
 
 
 	<modules>
-		<!--
-		<module>spring-cloud-study-eureka</module>
-		<module>spring-cloud-study-zuul</module>
-		<module>spring-cloud-study-demo</module>
-		<module>spring-cloud-study-configcenter</module>
-		<module>spring-cloud-study-jpa</module>
-		<module>spring-cloud-study-feign</module>
-		<module>spring-cloud-study-redis</module>
-		<module>spring-cloud-study-jms</module>
-		<module>spring-cloud-study-mybatisplus</module>
-		<module>spring-cloud-study-poi</module>
-		<module>spring-cloud-study-drools</module>
-		<module>spring-cloud-study-aop</module>
-		<module>spring-cloud-study-udp</module>
-		<module>spring-cloud-study-netty-websocket</module>
-		<module>spring-cloud-study-security</module>
-		<module>spring-cloud-study-security-jwt</module>
-		<module>spring-cloud-study-elasticsearch</module
-		<module>spring-cloud-study-logstash</module>
-		<module>spring-cloud-study-websocket</module>
-		-->
-			<module>spring-cloud-study-ehcache</module>
+
+<!--		<module>spring-cloud-study-eureka</module>-->
+<!--		<module>spring-cloud-study-zuul</module>-->
+<!--		<module>spring-cloud-study-demo</module>-->
+<!--		<module>spring-cloud-study-configcenter</module>-->
+<!--		<module>spring-cloud-study-jpa</module>-->
+<!--		<module>spring-cloud-study-feign</module>-->
+<!--		<module>spring-cloud-study-redis</module>-->
+<!--		<module>spring-cloud-study-jms</module>-->
+<!--		<module>spring-cloud-study-mybatisplus</module>-->
+<!--		<module>spring-cloud-study-poi</module>-->
+<!--		<module>spring-cloud-study-drools</module>-->
+<!--		<module>spring-cloud-study-aop</module>-->
+<!--		<module>spring-cloud-study-udp</module>-->
+<!--		<module>spring-cloud-study-netty-websocket</module>-->
+<!--		<module>spring-cloud-study-security</module>-->
+<!--		<module>spring-cloud-study-security-jwt</module>-->
+		<module>spring-cloud-study-elasticsearch</module>
+<!--		<module>spring-cloud-study-logstash</module>-->
+<!--		<module>spring-cloud-study-websocket</module>-->
+
+<!--			<module>spring-cloud-study-ehcache</module>-->
 		<!---->
 	</modules>
 
