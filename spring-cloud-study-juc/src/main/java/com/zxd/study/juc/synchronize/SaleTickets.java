@@ -36,6 +36,10 @@ public class SaleTickets {
 class Ticket{
     private int number = 50;
 
+    /**
+     * 1.不加synchronized关键词，ABCD互相争用，都可以卖出票
+     * 2.加上synchronized关键词，被第一个线程锁定，后面线程无法争到
+     */
     // 加上synchronized关键词
     public synchronized void sale(){
         if (number > 0) {

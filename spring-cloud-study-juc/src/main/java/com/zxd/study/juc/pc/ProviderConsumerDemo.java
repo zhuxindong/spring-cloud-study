@@ -83,7 +83,8 @@ class Ticket{
 
     public synchronized void increment() throws InterruptedException {
         /**虚假唤醒
-         * 用if判断的话，唤醒后线程会从wait之后的代码开始运行，但是不会重新判断if条件，直接继续运行if代码块之后的代码，而如果使用while的话，也会从wait之后的代码运行，但是唤醒后会重新判断循环条件，如果不成立再执行while代码块之后的代码块，成立的话继续wait。
+         * 用if判断的话，唤醒后线程会从wait之后的代码开始运行，但是不会重新判断if条件，直接继续运行if代码块之后的代码，
+         * 而如果使用while的话，也会从wait之后的代码运行，但是唤醒后会重新判断循环条件，如果不成立再执行while代码块之后的代码块，成立的话继续wait。
          * 这也就是为什么用while而不用if的原因了，因为线程被唤醒后，执行开始的地方是wait之后。
          */
         //if (number != 0) {
